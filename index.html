@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi Column Blog Layout</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/ddbd1c81dd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <header>
+    <h1>Welcome to my Site</h1>
+  </header>
+  <main class="grid-container">
+
+    <nav class="nav" >
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#Portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="#"><i class="fa-regular fa-home"></i></a></li>
+        <li><a href="#featured"><i class="fa-solid fa-address-card"></i></a></li>
+        <li><a href="#Portfolio"><i class="fa-solid fa-desktop"></i></a></li>
+        <li><a href="#contact"><i class="fa-regular fa-address-card"></i></i></a></li>
+      </ul>
+    </div> 
+
+     <article class="featured" id="featured">
+        <img src="img/img1.jpeg"  alt="featr img">
+        <div>
+            <h2>Hey there,</h2>
+            <div>
+                <p>Lemme Introduce myself,</p><p>I am <span>Janardhana Reddy</span> currently pursuing my Undergrad in CSE from<a href="https://bit-bangalore.edu.in"><span> Bangalore Institute of Technology.</span></a></p>
+            </div>
+            <p class="resume-link-p"><a class="resume-link"  href="https://drive.google.com/file/d/1IxJuKtli64Qq73Gr2xjeNrlhegxvvL9J/view?usp=sharing">Download resume</a></p>
+        </div>  
+     </article>
+     <p class="Skills">Skills</p>
+     <p class="lang">Languages</p>
+     <div class="lang-list-div"><p class="lang-list">C, Java, Python, SQL, HTML, 
+      CSS, JavaScript, Kotlin </p></div>
+      <p class="dev">Development</p>
+      <div class="dev-list-div"><p class="dev-list">Django, Node JS, Android, Mongo DB</p></div>
+     
+     <p id="Portfolio">
+     <article class="car_lane">
+        <a href="https://github.com/amithck/car-lane-detector"><img src="img/car_lane.jpg" alt="feat img"></a>
+        <div>
+            <h3>Car Lane detection
+            </h3>
+            <p>Car lane detection uses opencv python library to detect car lanes</p>
+        </div>
+     </article>
+     <article class="file_c">
+        <a href="https://github.com/amithck/file_storage"><img src="img/file_c.jpg" alt="feat img"></a>
+        <div>
+            <h3>File Management system</h3>
+            <p>Sorts files into five different categories based on extensions using DSA concepts</p>
+          </div>
+     </article>
+     <article class="key_log">
+        <a href="https://github.com/amithck/keylogger"><img src="img/key_log.jpg" alt="feat img" class="key_logger"></a>
+        <div>
+            <h3>Key Logger</h3>
+            <p>Logs key inputs with their time stamp</p>
+          </div>
+     </article>
+    </p>
+     <footer class="footer">
+      <p id="contact">Contact me at:</p>
+      <ul>      
+       
+        <a href="https://www.instagram.com/janardhan.reddy.m.s/" ><span class="fa-stack fa-lg">
+          <i class="fa fa-circle-thin fa-stack-2x"></i>
+          <i class="fa fa-instagram fa-stack-1x"></i>
+        </span></a>
+      
+      
+      <a href="https://www.instagram.com/janardhan.reddy.m.s/" ><span class="fa-stack fa-lg">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x"></i>
+      </span></a>
+    
+    
+      <a href="https://www.instagram.com/janardhan.reddy.m.s/" ><span class="fa-stack fa-lg">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x"></i>
+      </span></a>
+
+      <a href="mailto:2002msjanardhan@gmail.com"><span class="fa-stack fa-lg">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-envelope fa-stack-1x"></i>
+      </span></a>
+    
+      </ul>
+     </footer>
+  </main>
+</body>
+</html>
